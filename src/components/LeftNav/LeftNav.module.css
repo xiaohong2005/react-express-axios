@@ -1,0 +1,23 @@
+.leftNavBox {
+    display: flex;
+    height: 100vh;
+}
+
+.LeftNav {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    gap: 1.5rem;
+}
+
+.navBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #bdbdbd;
+    border-radius: 1rem;
+}

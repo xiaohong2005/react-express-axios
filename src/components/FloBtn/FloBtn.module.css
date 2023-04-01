@@ -1,0 +1,37 @@
+.floBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    background-color: #eee;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    box-shadow: 0 0.1rem 0.3rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.bottomCenter {
+    bottom: 0;
+    left: calc(50vw - 2.25rem);
+}
+
+.top {
+    top: 0;
+}
+
+.topCenter {
+    top: 0;
+    left: calc(50vw - 2.25rem);
+}
+
+.rightBottom {
+    right: 2rem;
+    bottom: 2rem;
+}
